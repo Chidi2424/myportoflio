@@ -179,13 +179,7 @@
   @apply border-2 border-primary focus:border-primary/80 bg-transparent text-foreground rounded-md px-3 py-2;
 }
 
-@utility bg-gold {
-  background-color: #FFD700;
-}
 
-.light-bg {
-  background-color: #FFD700 !important;
-}
 
 #root{
   max-width:100%;
