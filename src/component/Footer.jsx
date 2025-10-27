@@ -3,9 +3,9 @@ import { ArrowUp, Mail, Phone, MapPin, Linkedin, Twitter, Instagram, Facebook } 
 
 const Footer = () => {
   return (
-    <footer className='py-16 px-4 bg-card relative border-t border-border mt-12'>
+    <footer className='py-12 px-4 bg-card relative border-t border-border mt-12'>
       <div className='container mx-auto max-w-6xl'>
-        <div className='grid grid-cols-1 md:grid-cols-4 gap-8 mb-8'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8'>
           {/* Brand Section */}
           <div className='space-y-4'>
             <h3 className='text-xl font-bold text-primary'>Vitalis Makuochukwu</h3>

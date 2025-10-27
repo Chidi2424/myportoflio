@@ -38,13 +38,13 @@ const Skills = () => {
         className='py-24 px-4 relative bg-secondary/30'
     >
         <div className='container mx-auto max-w-5xl'>
-            <h2 className='text-3xl md:text-4xl font-bold mb-12 text-center'>
+            <h2 className='text-2xl sm:text-3xl md:text-4xl font-bold mb-12 text-center'>
                 My<span className='text-primary'> Skills</span>
             </h2>
-            <div className='flex flex-wrap justify-center gap-4 mb-12'>
+            <div className='flex justify-center gap-2 sm:gap-4 mb-12'>
               {categories.map((category, key) => (
                 <button key={key} onClick={()=>setActiveCategory(category)}className={cn(
-                  'px-5 py-2 rounded-full transition-colors duration-300 capitalize ',
+                  'px-3 py-2 sm:px-5 sm:py-2 text-sm sm:text-base rounded-full transition-colors duration-300 capitalize ',
                   activeCategory===category  ? 'bg-primary text-primary-foreground' : 'bg-secondary/70 text-foreground  hover:bg-secondary'
                      )}>{category}</button>
               ))}

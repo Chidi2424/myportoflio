@@ -104,16 +104,10 @@
   }
   body {
     @apply text-foreground transition-colors duration-300;
-    background-image: url('/projects/gold.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-color: hsl(var(--background));
     font-feature-settings: "rlig" 1 "calt" 1;
   }
 
-  .dark body {
-    background-image: none;
+  body {
     background-color: hsl(var(--background));
   }
 
@@ -183,6 +177,14 @@
 }
 @utility input-purple {
   @apply border-2 border-primary focus:border-primary/80 bg-transparent text-foreground rounded-md px-3 py-2;
+}
+
+@utility bg-gold {
+  background-color: #FFD700;
+}
+
+.light-bg {
+  background-color: #FFD700 !important;
 }
 
 #root{

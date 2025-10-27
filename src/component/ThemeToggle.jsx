@@ -9,9 +9,11 @@ const ThemeToggle = () => {
     if (savedTheme === 'dark') {
       setIsDarkMode(true);
       document.documentElement.classList.add('dark');
+      document.body.classList.remove('light-bg');
     } else {
       setIsDarkMode(false);
       document.documentElement.classList.remove('dark');
+      document.body.classList.add('light-bg');
     }
   }, []);
 
@@ -20,9 +22,11 @@ const ThemeToggle = () => {
     setIsDarkMode(newTheme);
     if (newTheme) {
       document.documentElement.classList.add('dark');
+      document.body.classList.remove('light-bg');
       localStorage.setItem('theme', 'dark');
     } else {
       document.documentElement.classList.remove('dark');
+      document.body.classList.add('light-bg');
       localStorage.setItem('theme', 'light');
     }
     // Emit custom event for theme change

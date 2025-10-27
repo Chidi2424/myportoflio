@@ -5,10 +5,10 @@ const About = () => {
   return (
     <section id='about' className='py-24 px-4 relative'>
         <div className='container mx-auto max-w-5xl'>
-            <h2 className='text-3xl md:text-4xl font-bold text-center mb-12'>
+            <h2 className='text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-12'>
                 About <span className='text-primary'>Me</span>
             </h2>
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-12 items-center '>
+            <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center'>
               <div className='space-y-6'>
                 <h3 className='text-2xl font-semibold'>  I'm a passionate full-stack developer with a love for creating beautiful and functional web applications.</h3>
                 <p className='text-muted-foreground'>
@@ -20,11 +20,11 @@ const About = () => {
                    
                <div className='flex flex-col sm:flex-row gap-4 pt-4 justify-center'>
                 <a href='#contact' className='cosmic-button'>  Get in Touch </a>
-                <div>
+                {/* <div>
                   <a href='/resume.pdf' download className='px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300'>
                    Download CV </a>
 
-               </div>
+               </div> */}
 
                </div>
               </div>
