@@ -57,8 +57,8 @@ const Skills = () => {
                         </div>
                         <div className='w-full bg-secondary/50 h-2 rounded-full overflow-hidden'>
                             <div
-                                className='bg-primary h-2 rounded-full origin-left animate-[grow_1.5s_ease-out]'
-                                style={{ '--scale': parseInt(skill.level) / 100 }}
+                                className='bg-primary h-2 rounded-full transition-all duration-1000 ease-out'
+                                style={{ width: `${skill.level}%` }}
                             />
                         </div>
                         <div className='text-right mt-2 text-sm font-medium'>

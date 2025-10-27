@@ -8,9 +8,9 @@ const Footer = () => {
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8'>
           {/* Brand Section */}
           <div className='space-y-4'>
-            <h3 className='text-xl font-bold text-primary'>Vitalis Makuochukwu</h3>
+            <h3 className='text-xl font-bold text-primary'>Mkauochukwu Egwuonwu</h3>
             <p className='text-sm text-muted-foreground'>
-              Full-Stack Developer passionate about creating innovative web solutions and user experiences.
+             I am a Full-Stack Developer that is passionate in creating innovative web solutions and user experiences.
             </p>
           </div>
 
@@ -70,7 +70,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className='pt-8 border-t border-border flex flex-wrap justify-between items-center'>
           <p className='text-sm text-muted-foreground'>
-            &copy;{new Date().getFullYear()} Vitalis Makuochukwu. All rights reserved.
+            &copy;{new Date().getFullYear()} Makuochukwu Egwuonwu. All rights reserved.
           </p>
           <a href='#hero' className='p-2 rounded-full bg-primary/10 hover:bg-primary/20 text-primary transition-colors'>
             <ArrowUp size={20} />
