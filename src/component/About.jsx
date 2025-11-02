@@ -12,7 +12,7 @@ const About = () => {
               <div className='space-y-6'>
                 <h3 className='text-2xl font-semibold'>  I'm a passionate full-stack developer with a love for creating beautiful and functional web applications.</h3>
                 <p className='text-muted-foreground'>
-                   With over 5years of experience in fulstack development,I specialize in creating responsive,accessible and performant web applications using modern technologies like React, Node.js, and cloud platforms, I bring ideas to life through code.
+                   With over 4years of experience in fulstack development,I specialize in creating responsive,accessible and performant web applications using modern technologies like React, Node.js, and cloud platforms, I bring ideas to life through code.
                 </p>
                 <p className='text-muted-foreground'>  I'm passionate about creating elegant solutions to complex problems, and I'm constantly learning new technologies and techniques to stay at the forefront of the ever-evolving web landscape. </p>
                <p className='text-muted-foreground'>

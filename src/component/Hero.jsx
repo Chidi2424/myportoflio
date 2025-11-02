@@ -14,8 +14,8 @@ const Hero = () => {
         <div className='order-1 lg:order-2 text-center lg:text-left space-y-6'>
           <h1 className='text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold tracking-tight leading-tight'>
             <span className='opacity-0 animate-fade-in'>Hi, I'm</span>
-              <span className='text-primary opacity-0 animate-fade-in-delay-1 ml-2'>Makuo</span>
-                <span className='text-gradien ml-2 opacity-0 animate-fade-in-delay-1'>Egwuonwu</span>
+              <span className='text-primary opacity-0 animate-fade-in-delay-1 ml-2'>Chidi</span>
+                <span className='text-gradien ml-2 opacity-0 animate-fade-in-delay-1'>Joshua</span>
           </h1>
           <p className='text-base sm:text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto lg:mx-0 opacity-0 animate-fade-in-delay-3 px-4 lg:px-0'>
             I create stellar web experience with modern technologies
