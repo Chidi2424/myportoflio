@@ -3,12 +3,12 @@ import React from "react";
 const projects = [
   {
     id: 1,
-    title: "Saas Landing Page",
-    description: "A beautiful landing page app using React and Tailwind CSS.",
+    title: "FUTO Computer Science Platform",
+    description: "A beautiful interactive web app using MERN stack.",
     image: "/projects/download.jpeg",
     tags: ["React", "Tailwind CSS"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://chidi-csc-app.vercel.app/",
+    githubUrl: "https://github.com/Chidi2424/departmental-info-board",
   },
   {
     id: 2,
