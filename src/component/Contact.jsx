@@ -20,7 +20,7 @@ const Contact = () => {
       from_name: e.target.name.value,
       from_email: e.target.email.value,
       message: e.target.message.value,
-      to_email: 'vitalismakuochukwu@gmail.com'
+      to_email: 'ofokansichinonso2030@gmail.com'
     }
 
     emailjs.send(serviceId, templateId, templateParams, publicKey)
@@ -68,7 +68,7 @@ const Contact = () => {
               <div className='min-w-0'>
                 <h4 className='font-medium text-sm sm:text-base'>Email</h4>
                 <a href='mailto:vitalismakuochukwu@gmail.com' className='text-sm sm:text-base text-muted-foreground hover:text-primary transition-colors break-all'>
-                  vitalismakuochukwu@gmail.com
+                  ofokansichinonso2030@gmail.com
                 </a>
               </div>
             </div>
@@ -79,7 +79,7 @@ const Contact = () => {
               <div className='min-w-0'>
                 <h4 className='font-medium text-sm sm:text-base'>Phone</h4>
                 <a href='tel:+2347026139914' className='text-sm sm:text-base text-muted-foreground hover:text-primary transition-colors'>
-                  +234 7026139914
+                  +234 8069971739
                 </a>
               </div>
             </div>
@@ -90,7 +90,7 @@ const Contact = () => {
               <div className='min-w-0'>
                 <h4 className='font-medium text-sm sm:text-base'>Location</h4>
                 <p className='text-sm sm:text-base text-muted-foreground'>
-                  Onitsha, Anambra State, Nigeria
+                  Owerri, Imo State, Nigeria
                 </p>
               </div>
             </div>
@@ -98,13 +98,13 @@ const Contact = () => {
             <div className='pt-6 sm:pt-8'>
               <h4 className='font-medium mb-4'>Connect With Me</h4>
               <div className='flex space-x-4 justify-start'>
-                <a href='https://www.linkedin.com/in/makuochukwu-egwuonwu-749898321' target='_blank' rel='noopener noreferrer'>
+                <a href='https://www.linkedin.com/in/chidi-joshua' target='_blank' rel='noopener noreferrer'>
                   <Linkedin size={24} className='text-muted-foreground hover:text-primary transition-colors'/>
                 </a>
-                <a href='https://x.com/Ababio01' target='_blank' rel='noopener noreferrer'>
+                <a href='https://x.com/chidi_xyz' target='_blank' rel='noopener noreferrer'>
                   <Twitter size={24} className='text-muted-foreground hover:text-primary transition-colors'/>
                 </a>
-                <a href='https://www.facebook.com/makuochukwu.egwuonwu.7' target='_blank' rel='noopener noreferrer'>
+                <a href='https://www.facebook.com/chidi24' target='_blank' rel='noopener noreferrer'>
                   <Facebook size={24} className='text-muted-foreground hover:text-primary transition-colors'/>
                 </a>
               </div>
