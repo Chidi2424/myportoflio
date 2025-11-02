@@ -18,7 +18,7 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="space-y-4">
             <h3 className="text-xl font-bold text-primary">
-              Mkauochukwu Egwuonwu
+              Chidi Joshua
             </h3>
             <p className="text-sm text-muted-foreground">
               I am a Full-Stack Developer that is passionate in creating
@@ -70,10 +70,10 @@ const Footer = () => {
               <div className="flex items-center space-x-3">
                 <Mail className="h-4 w-4 text-primary" />
                 <a
-                  href="mailto:vitalismakuochukwu@gmail.com"
+                  href="mailto:ofokansichinonso2030@gmail.com"
                   className="text-sm text-muted-foreground hover:text-primary transition-colors"
                 >
-                  vitalismakuochukwu@gmail.com
+                  ofokansichinonso2030@gmail.com
                 </a>
               </div>
               <div className="flex items-center space-x-3">
@@ -82,13 +82,13 @@ const Footer = () => {
                   href="tel:+2347026139914"
                   className="text-sm text-muted-foreground hover:text-primary transition-colors"
                 >
-                  +234 7026139914
+                  +234 8069971739
                 </a>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="h-4 w-4 text-primary" />
                 <span className="text-sm text-muted-foreground">
-                  Onitsha, Nigeria
+                  Owerri, Nigeria
                 </span>
               </div>
             </div>
@@ -99,7 +99,7 @@ const Footer = () => {
             <h4 className="text-lg font-semibold">Follow Me</h4>
             <div className="flex space-x-4">
               <a
-                href="https://www.linkedin.com/in/makuochukwu-egwuonwu-749898321?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                href="https://www.linkedin.com/in/chidi-joshua"
                 className="p-2 rounded-full bg-primary/10 hover:bg-primary/20 text-primary transition-colors"
               >
                 <Linkedin size={18} />
@@ -112,7 +112,7 @@ const Footer = () => {
               </a>
 
               <a
-                href="https://www.facebook.com/makuochukwu.egwuonwu.7"
+                href="https://www.facebook.com/chidi24"
                 className="p-2 rounded-full bg-primary/10 hover:bg-primary/20 text-primary transition-colors"
               >
                 <Facebook size={18} />
@@ -124,7 +124,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="pt-8 border-t border-border flex flex-wrap justify-between items-center">
           <p className="text-sm text-muted-foreground">
-            &copy;{new Date().getFullYear()} Makuochukwu Egwuonwu. All rights
+            &copy;{new Date().getFullYear()} Chidi Joshua. All rights
             reserved.
           </p>
           <a
