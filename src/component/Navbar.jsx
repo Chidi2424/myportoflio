@@ -42,7 +42,7 @@ const Navbar = () => {
           <a className='text-xl font-bold text-primary flex items-center'href='#hero'>
             <img src='/projects/logo.jpg' alt='Logo' className='w-8 h-8 mr-2 rounded-full' />
             <span className='relative z-10'>
-              <span className='text-glow text-foreground'>AbaTech</span>Portfolio
+              <span className='text-glow text-foreground'>CrystalTech</span>Portfolio
             </span>
           </a>
           {/* desktop nav */}
