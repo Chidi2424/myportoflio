@@ -80,7 +80,7 @@ const Contact = () => {
                 <div className="min-w-0">
                   <h4 className="font-medium text-sm sm:text-base">Email</h4>
                   <a
-                    href="mailto:vitalismakuochukwu@gmail.com"
+                    href="mailto:ofokansichinonso2030@gmail.com"
                     className="text-sm sm:text-base text-muted-foreground hover:text-primary transition-colors break-all"
                   >
                     ofokansichinonso2030@gmail.com
