@@ -12,13 +12,12 @@ const projects = [
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
-    description:
-      "Interactive analytics dashboard with data vistualization and fitering capabilities.",
+    title: "Viddy's Restaurant Delivery App",
+    description: "A modern and user-friendly web app for ordering food online.",
     image: "/projects/mak.jpg",
     tags: ["TypeScript", "D3.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://viddy-s-restaurant.vercel.app/",
+    githubUrl: "https://github.com/Chidi2424/viddy-s-culinary-journey",
   },
   {
     id: 3,
